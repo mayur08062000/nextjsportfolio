@@ -1,95 +1,63 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link"
 
-export default function Home() {
+function page() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="">
+      <div className="detailed-introduction-container">
+        <div className="header">
+          <h1>Hello, I'm Mayur D. Bhadane</h1>
+          <p>Passionate Web Developer</p>
+          <address>
+            Mobile No: 8468937368 / 8275925121<br />
+            Email: mayurbhadane0806200@gmail.com<br />
+            Address: A/p-Wakhari Deola, Tal-Deola, Dist-Nashik-423501
+          </address>
+        </div>
+
+        <div className="content">
+          <section className="career-objective">
+            <h2>Career Objective</h2>
+            <p>
+              Seeking a challenging career opportunity to contribute to the growth and success of an organization,
+              while continually enhancing my knowledge and skills. Aspire to take on a leadership role and guide
+              the company towards sustained growth and profitability.
+            </p>
+          </section>
+
+          <section className="scholastics">
+            <h2>Scholastics</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Year of Passing</th>
+                  <th>Institute Name / University Name</th>
+                  <th>Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2015-16</td>
+                  <td>Public School Deola (Maharashtra State Board)</td>
+                  <td>79%</td>
+                </tr>
+                <tr>
+                  <td>2017-18</td>
+                  <td>KRA Arts Science and Commerce College Deola, Nashik (Maharashtra State Board)</td>
+                  <td>65%</td>
+                </tr>
+                <tr>
+                  <td>2020-2021</td>
+                  <td>LVH College Nashik (Savitribai Phule Pune University)</td>
+                  <td>71%</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    </div>
+  )
 }
+
+export default page
