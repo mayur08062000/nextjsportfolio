@@ -30,7 +30,7 @@ export default function ProjectDetails() {
               Developed an interactive quiz application using React, React Hooks, and Redux, a popular JavaScript library for building user interfaces. The app dynamically renders quiz questions and multiple-choice options, allowing users to select their answers. React state management ensures real-time updates and a seamless user experience.
             </p>
             {/* GitHub button for Project 1 */}
-            <a href="https://github.com/your-username/quiz-app" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mayur08062000" target="_blank" rel="noopener noreferrer">
               <img src="https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue" alt="GitHub" />
             </a>
             <br />
@@ -41,7 +41,7 @@ export default function ProjectDetails() {
               Created a Stone-Paper-Scissors game using a combination of HTML for the structure, CSS for styling, and JavaScript for interactivity. The game provides a simple and engaging user interface where players can choose between stone, paper, and scissors. JavaScript handles the game logic, determining the winner based on the chosen options. CSS is employed to enhance the visual appeal, providing an enjoyable gaming experience. This project demonstrates the integration of front-end technologies to create an interactive and entertaining web-based game.
             </p>
             {/* GitHub button for Project 2 */}
-            <a href="https://github.com/your-username/stone-paper-scissors" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mayur08062000" target="_blank" rel="noopener noreferrer">
               <img src="https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue" alt="GitHub" />
             </a>
           </div>
